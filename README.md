@@ -36,8 +36,8 @@ Porém, para utilizar desse recurso, é preciso ter instalado o [Docker Desktop]
 
 E para ambiente Windows, é necessário garantir que o Subsistema Windows para Linux 2 (WSL2) esteja instalado e ativado. As informações sobre como instalar e habilitar o WSL2 podem ser encontradas na [documentação da Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
-* Clone esse repositório: `git clone https://github.com/gabriel-fn/teste-fiocruz.git`.
-* `cd teste-fiocruz` vá para a raiz do seu projeto.
+* Clone esse repositório: `git clone https://github.com/gabriel-fn/teste-fiocruz-r.git`.
+* `cd teste-fiocruz-r` vá para a raiz do seu projeto.
 * `composer install --no-scripts` para instalar as dependências.
 * `cp .env.docker .env` para criar o arquivo de configuração.
 * `php artisan sail:install` publica o arquivo `docker-compose.yml` na raiz do projeto.
@@ -50,8 +50,8 @@ E para ambiente Windows, é necessário garantir que o Subsistema Windows para L
 
 ### Instalação - Local
 
-* Clone esse repositório: `git clone https://github.com/gabriel-fn/teste-fiocruz.git`.
-* `cd teste-fiocruz` vá para a raiz do seu projeto.
+* Clone esse repositório: `git clone https://github.com/gabriel-fn/teste-fiocruz-r.git`.
+* `cd teste-fiocruz-r` vá para a raiz do seu projeto.
 * `composer install --no-scripts` para instalar as dependências.
 * `cp .env.example .env` para criar o arquivo de configuração.
 * `php artisan key:generate` para gerar a chave de criptografia.
