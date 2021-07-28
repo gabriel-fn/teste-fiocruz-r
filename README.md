@@ -3,7 +3,8 @@
 <p align="center">Aplicação para processo seletivo da Fiocruz! 🚀</p>
 
 <p align="center">
-<a href="#"><img src="https://img.shields.io/static/v1?label=Build&message=Pending&color=FFB903&style=for-the-badge"/></a>
+<a href="#"><img src="https://img.shields.io/static/v1?label=Build&message=Success&color=1C713A&style=for-the-badge"/></a>
+<a href="#"><img src="https://img.shields.io/static/v1?label=Deploy&message=Pending&color=FFB903&style=for-the-badge"/></a>
 <a href="#"><img src="https://img.shields.io/static/v1?label=PHP&message=v8.0&color=1C713A&style=for-the-badge"/></a>
 <a href="#"><img src="https://img.shields.io/static/v1?label=NPM&message=v7.18&color=1C713A&style=for-the-badge"/></a>
 <a href="#"><img src="https://img.shields.io/static/v1?label=Composer&message=v2.1.5&color=1C713A&style=for-the-badge"/></a>
@@ -40,7 +41,6 @@ E para ambiente Windows, é necessário garantir que o Subsistema Windows para L
 * `cd teste-fiocruz-r` vá para a raiz do seu projeto.
 * `composer install --no-scripts` para instalar as dependências.
 * `cp .env.docker .env` para criar o arquivo de configuração.
-* `php artisan sail:install` publica o arquivo `docker-compose.yml` na raiz do projeto.
 * `./vendor/bin/sail up` inicia o container Docker pelo sail.
 * `./vendor/bin/sail artisan key:generate` para gerar a chave de criptografia.
 * `./vendor/bin/sail artisan migrate --seed` para migrar o banco de dados.
